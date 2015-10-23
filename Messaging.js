@@ -12,5 +12,5 @@
 
  function changeImage(){
  	var my_image = document.getElementById("my_picture")
- 	my_image.src = "_img/meow.jpg"
+ 	my_image.src = "meow.jpg"
  }
