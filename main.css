@@ -1,0 +1,62 @@
+body 
+{
+	margin: 0;
+}
+#page
+{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 1000px;
+	height: 738px;
+}
+#top_bar
+{
+	position: absolute;
+	left: 20px;
+	top: 0;
+	width: 1000px;
+	height: 70px;
+	background-color: #400;
+	color: #fff;
+}
+#right_bar
+{
+	position: absolute;
+	left: 1000px;
+	top: 0;
+	width: 30px;
+	height: 737px;
+	background-color: #410;
+	color: #fff;
+}
+#left_bar
+{
+	position: absolute;
+	left: 10px;
+	top: 0;
+	width: 30px;
+	height: 737px;
+	background-color: #420;
+	color: #fff;
+}
+#my_stuff
+{
+	position: absolute;
+	left: 20px;
+	top: 70px;
+	width: 1000px;
+	height: 620px;
+	background-color: #fff;
+	clip: auto;
+	overflow: hidden;
+}
+#footer_bar
+{
+	position: absolute;
+	left: 20px;
+	top: 690px;
+	width: 1000px;
+	height: 48px;
+	background-color: #430;
+}
