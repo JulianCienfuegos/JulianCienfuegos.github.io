@@ -1,26 +1,35 @@
-<html>
-  <head>
-    <title>Sample "Hello, World" Application</title>
-  </head>
-  <body bgcolor=white>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Website</title>
+    <meta  charset="utf8">
+    <link href="_css/main.css" rel="stylesheet">
+    <script src="_js/Messaging.js"></script>
+</head>
 
-    <table border="0" cellpadding="10">
-      <tr>
-        <td>
-          <img src="images/springsource.png">
-        </td>
-        <td>
-          <h1>Sample "Hello, World" Application</h1>
-        </td>
-      </tr>
-    </table>
 
-    <p>This is the home page for the HelloWorld Web application. </p>
-    <p>To prove that they work, you can execute either of the following links:
-    <ul>
-      <li>To a <a href="hello.jsp">JSP page</a>.
-      <li>To a <a href="hello">servlet</a>.
-    </ul>
+<body>
+    <div id="page">
+        <div id="top_bar"></div>
+        <div id="left_bar"></div>
+        <div id="right_bar"></div>
+        <div id="my_stuff">
+            <p>
+                At some point in the processing of this page, a message box will pop up.
+            </p>
+            <script>
+                var p = new Person("Jane", "Doe")
+                babysFirstMessage(p);//a_person);
+            </script>
+            <p> If you are reading this, then you have already seen the alert. Now there will be one more.</p>
+            <script>
+                var p = new Person()
+                babysFirstMessage(p)//a_person);
+            </script>
+            <img id="my_picture" src="_img/me.jpg" onClick="changeImage()" onMouseOver="babysFirstMessage()">
+        </div>
+        <div id="footer_bar"></div>
+    </div>
+</body>
 
-  </body>
 </html>
