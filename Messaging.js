@@ -1,4 +1,4 @@
- function Person(f = "John", l = "Doe"){
+ function Person(f = "Penny", l = "Dog"){
  	this.first = f;
  	this.last = l;
  }
